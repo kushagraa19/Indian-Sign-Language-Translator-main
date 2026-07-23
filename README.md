@@ -1,73 +1,153 @@
-# Indian-Sign-Language-Translator
-[![Info](https://img.shields.io/badge/Usage-Instructions-blue?style=flat-square&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzBBNEVBRjsiIGQ9Ik0yNTYsNTEyYy02OC4zOCwwLTEzMi42NjctMjYuNjI5LTE4MS4wMi03NC45OEMyNi42MjksMzg4LjY2NywwLDMyNC4zOCwwLDI1Ng0KCVMyNi42MjksMTIzLjMzMyw3NC45OCw3NC45OEMxMjMuMzMzLDI2LjYyOSwxODcuNjIsMCwyNTYsMHMxMzIuNjY3LDI2LjYyOSwxODEuMDIsNzQuOThDNDg1LjM3MSwxMjMuMzMzLDUxMiwxODcuNjIsNTEyLDI1Ng0KCXMtMjYuNjI5LDEzMi42NjctNzQuOTgsMTgxLjAyQzM4OC42NjcsNDg1LjM3MSwzMjQuMzgsNTEyLDI1Niw1MTJ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojMDYzRThCOyIgZD0iTTQzNy4wMiw3NC45OEMzODguNjY3LDI2LjYyOSwzMjQuMzgsMCwyNTYsMHY1MTJjNjguMzgsMCwxMzIuNjY3LTI2LjYyOSwxODEuMDItNzQuOTgNCglDNDg1LjM3MSwzODguNjY3LDUxMiwzMjQuMzgsNTEyLDI1NlM0ODUuMzcxLDEyMy4zMzMsNDM3LjAyLDc0Ljk4eiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik0yNTYsMTg1Yy0zMC4zMjcsMC01NS0yNC42NzMtNTUtNTVzMjQuNjczLTU1LDU1LTU1czU1LDI0LjY3Myw1NSw1NVMyODYuMzI3LDE4NSwyNTYsMTg1eiBNMzAxLDM5NQ0KCVYyMTVIMTkxdjMwaDMwdjE1MGgtMzB2MzBoMTQwdi0zMEgzMDF6Ii8+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojQ0NFRkZGOyIgZD0iTTI1NiwxODVjMzAuMzI3LDAsNTUtMjQuNjczLDU1LTU1cy0yNC42NzMtNTUtNTUtNTVWMTg1eiIvPg0KCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNDQ0VGRkY7IiBwb2ludHM9IjMwMSwzOTUgMzAxLDIxNSAyNTYsMjE1IDI1Niw0MjUgMzMxLDQyNSAzMzEsMzk1IAkiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K)](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/App#usage-instructions-)&nbsp; [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) 
+Indian Sign Language Translator
 
-This repository consists of the code utilized for creation of an Indian Sign Language Translator satisfying the following criteria :
-- **Near-Real-Time Application**
-- **Achieve background independence**
-- **Attain Illumination independence**
+Computer Vision & Deep Learning Project
 
+June 2025
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/39513876/118981340-dcc48900-b997-11eb-98d8-686dd402f544.png" width="650">
-</p>
+Overview
 
-<div align="center"> <i>Flow Diagram of the project implementation</i> </div>
-</n>
+Indian Sign Language (ISL) is an important medium of communication for individuals with hearing and speech impairments. This project focuses on developing a near real-time Indian Sign Language Translator capable of recognizing hand gestures from live webcam input using Computer Vision and Deep Learning techniques.
 
-We achieve these goals by providing the following features :
-1. **Face Detection** 
-: Used as an activation mechanism. We use Haar cascade models from the OpenCV library to detect faces in an image. When a face is detected, the program checks the next few consecutive frames, and when a threshold value of consecutive frames with a face in it is reached, the sign language system is triggered.
+The system combines face detection, hand detection, image preprocessing, and gesture classification to improve recognition accuracy under varying backgrounds and lighting conditions.
 
-2. **Hand Detection** 
-: The first step in preprocessing is preliminary hand detection method, which goes through every frame selected from the clip, and attempts to find a hand in them using a YOLO-v3 pre-trained network. 
-If any hands are found in the frame, an extended bounding box is created around the hand(s). These images are then cropped to contain only the contents of the box, and are passed onto the next step of preprocessing which is resizing. If no hands are found, the frame is discarded entirely. 
+Background
 
-3. **Skin Segmentation** 
-: After cropping and resizing, the images are passed through a combination of HSV (Hue, Saturation, Value) and YCbCr (Luminance, Chrominance) based filters to segment out skin and remove background noise present in the box input.
+Traditional sign language recognition systems often struggle with changing lighting conditions, background clutter, and inconsistent hand positioning. This project addresses these challenges by integrating multiple Computer Vision techniques before performing gesture classification.
 
-4. **Sign Recognition** 
-: The processed input is passed through a [SqueezeNet](https://arxiv.org/abs/1602.07360) model trained (via Transfer Learning) on a synthesized and cleaned Indian Sign Language dataset consisting of 10 classes, and ~2300+ images per class.
+The implementation utilizes a pre-trained hand detection model along with image preprocessing and Transfer Learning to recognize Indian Sign Language gestures efficiently.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/39513876/119128821-c54ad600-ba53-11eb-94b1-25727c70800b.jpg" width="500">
-</p>
+Note: This project is intended for learning and experimentation with Computer Vision and Deep Learning techniques. The current implementation focuses on building a functional recognition pipeline while leaving room for future improvements.
 
-<div align="center"> <i>Hand Detection performed on the Live Feed Input</i> </div>
-</n>
+Objectives
 
-The work performed is divided into the following **folders** :
+The project aims to:
 
-### Main App
-The [App](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/App) section consists of the files required to run the standalone webcam implementation of the translator. Contains :
-- The trained model
-- The hand segmentation network
-- Preprocessing scripts
-- Main application (main.py)
+• Develop a near real-time Indian Sign Language recognition system.
 
+• Detect hands accurately from live webcam input.
 
-### Dataset Synthesis
-Covers the [scripts](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/Dataset_Synthesis) used in :
-- Creating new data, via modifications on brightness, clarity and picture quality (Synthesis)
-- Cleaning noisy generated data from the previous step, by using the YOLO-v3 Hand Detection Network (Cleaning)
+• Minimize the effects of varying backgrounds and illumination.
 
-### Dataset Preprocessing
-Contains the [scripts](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/Dataset_Preprocessing) used in order to perform pre-processing on the input dataset, including image upscaling, skin segmentation and hand centralization. These tasks are performed before entering the image dataset into the neural network.
+• Classify Indian Sign Language gestures using a deep learning model.
 
-### Model Training
-Consists of the [notebook](https://github.com/AbhishekSinghDhadwal/Indian-Sign-Language-Translator/tree/main/Model_Training) used in order to train and save the SqueezeNet model used for the project. Originally made in Colab.
+Dataset
 
-### Dependencies
-- OpenCV
-- Tensorflow
-- Keras
-- Numpy
-- Pillow
-- ImageAI
+Dataset: Indian Sign Language Dataset
 
-The specific versions are mentioned in requirements.txt
+Classes: 10 Gesture Classes
 
-#### Credits:
-1. Jeanvit, for the skin segmentation algorithm [code](https://github.com/Jeanvit/PySkinDetection)
-2. Cansik, for the hand detection [NN](https://github.com/cansik/yolo-hand-detection/)
+Images per Class: Approximately 2,300+
 
-For further details on the implementation, kindly refer to the **Thesis** folder containing both the project report and the final presentation.
+Image Type: RGB Images
+
+The dataset is preprocessed before training using image enhancement and segmentation techniques to improve recognition performance.
+
+Key Features
+
+• Near real-time gesture recognition
+
+• Face-based activation mechanism
+
+• YOLOv3-based hand detection
+
+• Skin segmentation using HSV and YCbCr color spaces
+
+• Transfer Learning with SqueezeNet
+
+• Background and illumination robustness
+
+Project Workflow
+Detect the user's face using OpenCV Haar Cascade.
+Activate the recognition pipeline after consecutive face detections.
+Detect hand regions using a pre-trained YOLOv3 model.
+Crop and preprocess the detected hand.
+Apply skin segmentation to reduce background noise.
+Pass the processed image to the trained SqueezeNet model.
+Predict the corresponding Indian Sign Language gesture.
+Technologies Used
+
+• Python
+
+• TensorFlow
+
+• Keras
+
+• OpenCV
+
+• YOLOv3
+
+• ImageAI
+
+• NumPy
+
+• Pillow
+
+Project Structure
+
+Indian-Sign-Language-Translator/
+--- app/ # Main application
+
+--- dataset/ # Dataset preparation scripts
+
+--- preprocessing/ # Image preprocessing modules
+
+--- model/ # Model training notebooks
+
+--- requirements.txt
+
+--- README.md
+
+Requirements
+
+Python 3.8 or higher
+
+Jupyter Notebook (Optional)
+
+TensorFlow
+
+OpenCV
+
+ImageAI
+
+NumPy
+
+Pillow
+
+All required dependencies are listed in requirements.txt.
+
+To install the dependencies:
+
+pip install -r requirements.txt
+
+Running the Project
+Environment Setup
+
+It is recommended to create a virtual environment before installing the dependencies.
+
+Install all required packages using:
+
+pip install -r requirements.txt
+
+Launch the Application
+
+Run the main application:
+
+python main.py
+
+Once the webcam starts, the application detects the user's face and automatically begins recognizing hand gestures.
+
+Future Improvements
+
+• Support additional Indian Sign Language gestures.
+
+• Improve model accuracy through hyperparameter tuning.
+
+• Replace Haar Cascade with more robust face detection models.
+
+• Deploy the application as a desktop or web-based solution.
+
+• Optimize inference speed for smoother real-time performance.
+
+Notes
+
+This project demonstrates the practical application of Computer Vision and Deep Learning techniques for real-time gesture recognition. It integrates object detection, image preprocessing, transfer learning, and classification into a complete recognition pipeline while providing a foundation for future enhancements in sign language translation.
